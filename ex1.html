@@ -1,11 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Variable Demo</title>
+    <title>Data Types</title>
     <script>
       let a = 10;
-      console.log(a);
-      console.log("Have a good day");
+      let b = 5;
+      let c = a > b;
+      document.write(a > b); //true
+      document.write("<br>");
+      document.write(typeof c);
+      c = b > a;
+      document.write("<br>");
+      document.write(b > a); //false
+      document.write("<br>");
+      document.write(typeof c);
     </script>
   </head>
 </html>
